@@ -221,3 +221,35 @@ header nav{
         font-size: 3rem;
     }
 }
+
+/* Tablet */
+
+@media (max-width:768px) {
+    #navbar li{
+        display: none;
+    }
+    
+    #navbar #logo{
+        display: flex;
+    }
+
+    #main-content{
+        overflow: hidden;
+    }
+
+    #main-content #image-product{
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width:900px) {
+    
+    #main-content{
+        overflow: hidden;
+    }
+
+    #main-content #image-product{
+        padding-left: 2rem;
+    }
+
+}
